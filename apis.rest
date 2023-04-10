@@ -1,0 +1,27 @@
+
+# get All
+GET http://localhost:3001/api/persons
+
+###
+# get InFo
+GET http://localhost:3001/info
+
+
+
+###
+# get One
+GET http://localhost:3001/api/persons/5
+
+###
+# delete
+DELETE http://localhost:3001/api/persons/3
+
+###
+# post 
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name":"John Doe" ,
+    "number":"+212 6545356758"
+}
