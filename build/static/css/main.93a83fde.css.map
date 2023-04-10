@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.93a83fde.css","mappings":"AAAA,OACE,aAAyB,CACzB,2BACF,CACA,aACE,wBACF","sources":["App.css"],"sourcesContent":[".title {\r\n  color: rgb(133, 133, 133);\r\n  text-shadow: 2px 2px #558abb;\r\n}\r\nbutton:hover {\r\n  background-color: rgb(61, 213, 255);\r\n}\r\n"],"names":[],"sourceRoot":""}
