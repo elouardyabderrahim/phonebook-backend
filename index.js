@@ -12,6 +12,7 @@ const requestLogger = (request, response, next) => {
 };
 
 // built-in middeleware function in express. json-parser
+app.use(express.static("build"));
 app.use(express.json());
 app.use(requestLogger);
 app.use(cors());
